@@ -13,6 +13,8 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - [My process](#my-process)
   - [Built with](#built-with)
 - [Author](#author)
+- [Special Thanks](#special-thanks)
+- [Date](#date)
 
 
 
@@ -41,11 +43,35 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 
+### What I learnt
+
+- vertically and horizontally centered items
+- use flexbox to the body to center the card.
+- after that, add `min-height: 100vh` to body because Flexbox aligns child items to the size of the parent container.
+
+```css
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+main{
+  width: 324px; /* or what you need */
+}
+```
+
 
 ## Author
 
-- Name - Mirza Monirul Alam
+- Name - Mirza Monirul Alam (Ethen).
 - Frontend Mentor - [@EthenPage](https://www.frontendmentor.io/profile/EthenPage)
+
+## Special Thanks 
+
+- [Deniel Den](https://www.frontendmentor.io/profile/denielden).
 
 ## Date
 
