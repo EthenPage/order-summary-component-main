@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-<!-- - Solution URL: [Solution](https://your-solution-url.com) -->
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/order-summary-card-ByVMnUjM9)
 - Live Site URL: [Live](https://ethenpage.github.io/order-summary-component-main/)
 
 ## My process
