@@ -1,6 +1,7 @@
 # Frontend Mentor - Order summary card solution
 
 This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
+-24 March 2022
 
 ## Table of contents
 
@@ -44,3 +45,7 @@ Users should be able to:
 
 - Name - Mirza Monirul Alam
 - Frontend Mentor - [@EthenPage](https://www.frontendmentor.io/profile/EthenPage)
+
+## Date
+
+- 25 March 2022
