@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+
+:root{
+    --Pale_blue: hsla(225, 100%, 94%, 0.404);
+    --Pale_blueExtra: hsl(225, 100%, 94%);
+    --Bright_blue: hsl(245, 75%, 52%);
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*,
+::after,
+::before{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    background-image: url("../images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+main{
+    width: 324px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    /* outline: 1px red solid; */
+}
+
+.heroimg{
+    width: 100%;
+    border-radius: 20px 20Px 0px 0px;
+}
+
+.content{
+    background-color: var(--Very_pale_blue);
+    border-radius: 0 0 20px 20px;
+    padding: 0 25px;
+
+}
+
+h1{
+    color: var(--Dark_blue);
+    font-weight: 900;
+    font-size: 1.4rem;
+    padding: 30px 0;
+}
+
+.info p{
+    color: var(--Desaturated_blue);
+    padding-bottom: 30px;
+    line-height: 1.5;
+}
+
+.plan{
+    background-color: var(--Pale_blue);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.plan img{
+    padding: 15px;
+}
+
+.plan-desc{
+    flex-grow: 1;
+    text-align: left;
+    padding-left: 5px;
+}
+
+.plan-desc .price{
+    color: var(--Desaturated_blue);
+}
+
+.plan-desc .annual{
+    font-weight: 900;
+    color: var(--Dark_blue);
+}
+
+
+.plan-change{
+    padding: 15px;
+    font-size: 0.8rem;
+    font-weight: 900;
+}
+
+.plan-change a{
+    color: var(--Bright_blue);
+}
+
+.plan-change a:hover{
+    color: hsla(245, 75%, 52%, 0.842);
+}
+
+.action{
+    margin: 30px 0;
+}
+
+.action a{
+    text-decoration: none;
+    display: block;
+    font-weight: 700;
+    font-size: 0.9rem;
+}
+
+.action .payment{
+    background-color: var(--Bright_blue);
+    padding: 10px 0;
+    color: var(--Very_pale_blue);
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px 2px var(--Pale_blueExtra);
+    margin-bottom: 20px;   
+}
+
+.action .payment:hover{
+    background-color: hsla(245, 75%, 52%, 0.842);
+}
+
+.action .cancel-order{
+    color: var(--Desaturated_blue);
+    display: inline;
+}
+
+.action .cancel-order:hover{
+    color: var(--Dark_blue);
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+      background-image: url(../images/pattern-background-desktop.svg);
+      
+    }
+  }
+
+/* Extra */
+footer{
+    height: 10%;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+  
